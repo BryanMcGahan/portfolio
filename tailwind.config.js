@@ -5,6 +5,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'xl': '1024px',
+        '2xl': '1024px'
+      },
       colors: {
         'primary': '#FF4747',
         'light': '#F3F7F0',
@@ -12,11 +16,12 @@ module.exports = {
         'dark-text': '#1B1B1E'
       },
       boxShadow: {
-        'solid1': '4px 4px 0px'
+        'solid1': '4px 4px 0px',
+        'hoverSolid': '8px 4px 0px'
       },
       fontFamily: {
         'syne': ['Syne', 'sans-serif'],
-      }
+      },
     },
   },
   plugins: [],

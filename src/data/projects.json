@@ -1,0 +1,12 @@
+[
+    {
+        "title": "Pokemon Stats",
+        "description": "This is project is a very simple single page web application, that I built to learn how to use apis.",
+        "image": "src/assets/pokemon_back.png",
+        "tech": [
+            "Vuejs", "Vite", "Tailwindcss"
+        ],
+        "site": "https://bryanmcgahan.github.io/pokemon-stats/",
+        "code": "https://github.com/BryanMcGahan/pokemon-stats"
+    }
+]

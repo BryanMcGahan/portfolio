@@ -11,8 +11,7 @@
   >
     <div
       class="
-        sm:flex 
-        sm:flex-col
+        sm:flex sm:flex-col
         md:flex-row
         justify-center
         space-x-0
@@ -21,62 +20,75 @@
         md:space-y-0
       "
     >
-      <div
-        class="
-          hover:bg-primary hover:border-2
-          border-2 border-light
-          hover:border-dark hover:shadow-solid1 hover:shadow-dark
-          py-2
-          px-3
-          rounded-md
-          text-sm
-          md:text-md
-        "
+      <a href="#">
+        <div
+          class="
+            hover:bg-primary hover:border-2
+            border-2 border-light
+            hover:border-dark hover:shadow-solid1 hover:shadow-dark
+            py-2
+            px-3
+            rounded-md
+            text-sm
+            md:text-md
+          "
+        >
+          Home
+        </div>
+      </a>
+
+      <a href="#">
+        <div
+          class="
+            hover:bg-primary hover:border-2
+            border-2 border-light
+            hover:border-dark hover:shadow-solid1 hover:shadow-dark
+            py-2
+            px-3
+            rounded-md
+            text-sm
+            md:text-md
+          "
+        >
+          Projects
+        </div>
+      </a>
+      <a href="#">
+        <div
+          class="
+            hover:bg-primary hover:border-2
+            border-2 border-light
+            hover:border-dark hover:shadow-solid1 hover:shadow-dark
+            py-2
+            px-3
+            rounded-md
+            text-sm
+            md:text-md
+          "
+        >
+          About
+        </div>
+      </a>
+      <a
+        href="\Bryan_McGahan.pdf#toolbar=0"
+        target="_blank"
+        rel="noopener noreferrer"
       >
-        <a href="#">Home</a>
-      </div>
-      <div
-        class="
-          hover:bg-primary hover:border-2
-          border-2 border-light
-          hover:border-dark hover:shadow-solid1 hover:shadow-dark
-          py-2
-          px-3
-          rounded-md
-          text-sm
-          md:text-md
-        "
+        <div
+          class="
+            hover:bg-primary hover:border-2
+            border-2 border-light
+            hover:border-dark hover:shadow-solid1 hover:shadow-dark
+            py-2
+            px-3
+            rounded-md
+            text-sm
+            md:text-md
+          "
+        >
+          Resume
+        </div></a
       >
-        <a href="#">Projects</a>
-      </div>
-      <div
-        class="
-          hover:bg-primary hover:border-2
-          border-2 border-light
-          hover:border-dark hover:shadow-solid1 hover:shadow-dark
-          py-2
-          px-3
-          rounded-md
-          text-sm
-          md:text-md
-        "
-      >
-        <a href="#">About</a>
-      </div>
-      <div
-        class="
-          hover:bg-primary hover:border-2
-          border-2 border-light
-          hover:border-dark hover:shadow-solid1 hover:shadow-dark
-          py-2
-          px-3
-          rounded-md
-          text-sm
-          md:text-md
-        "
-      >
-        <a href="#">Resume</a>
-      </div>
     </div>
   </nav>
 </template>
